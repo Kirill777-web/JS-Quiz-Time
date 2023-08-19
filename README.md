@@ -1,4 +1,4 @@
-## JavaScript Quiz
+## JS-Quiz-Time
 
 ## Description
 
