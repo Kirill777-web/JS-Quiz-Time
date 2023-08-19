@@ -17,6 +17,7 @@ body {
   position: relative; /* Setting up for absolute positioning of timer and highscore */
 }
 
+/* Main page style */
 header {
   text-align: center;
   background-color: #46d5f8;
@@ -53,12 +54,14 @@ header p {
   background-color: #f4f4f4; /* Change background color when hovering */
 }
 
+/* Timer style */
 .timer {
   position: absolute; /* Absolute positioning relative to the body */
   top: 10px;
   right: 10px;
 }
 
+/* View score style */
 .view.highscore {
   position: absolute; /* Absolute positioning relative to the body */
   top: 10px;
@@ -66,6 +69,7 @@ header p {
   color: purple;
 }
 
+/* Quiz style */
 .quiz {
   width: 80%;
   max-width: 800px;
@@ -90,7 +94,7 @@ header p {
   text-align: center; /* Center the text */
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
-
+/* Style choices */
 .choices li {
   list-style-type: none;
   margin-bottom: 10px;
@@ -173,6 +177,8 @@ h2 {
 .end-form button:hover {
   background-color: #0056b3;
 }
+
+/* Style score form */
 
 .scoreboard button {
   padding: 10px 20px;
