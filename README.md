@@ -38,7 +38,7 @@ N/A
 
 ## Links
 
-- This is the link of my application [GitHub pages]()
+- This is the link of my application [GitHub pages](https://kirill777-web.github.io/JS-Quiz-Time/)
 - This is the link of my [GitHub repository](https://github.com/Kirill777-web/JS-Quiz-Time)
 
 The following screenshots show the application final output:
