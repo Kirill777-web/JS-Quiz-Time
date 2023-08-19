@@ -1,0 +1,190 @@
+body,
+h1,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif; /* Setting a default font for the body */
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* This will center the direct children of the body horizontally */
+  justify-content: center; /* This will center the direct children of the body vertically */
+  height: 100vh; /* This makes the body take up the full viewport height */
+  position: relative; /* Setting up for absolute positioning of timer and highscore */
+}
+
+header {
+  text-align: center;
+  /* margin-bottom: 30px; Adding some space below the header */
+  background-color: #46d5f8; /* A green background color */
+  color: white; /* White text color */ /* Centered content */
+  padding: 40px 0; /* Padding on top and bottom */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle shadow */
+  margin: 20px 10%; /* Add some margin around the header and constrain its width */
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+header h1 {
+  font-size: 2.5em; /* Bigger font size for title */
+  margin-bottom: 20px; /* Space below the title */
+}
+
+header p {
+  font-size: 1.2em; /* Increase font size for the description */
+  margin-bottom: 30px; /* Space below the description */
+}
+
+.start-btn {
+  margin-top: 15px; /* Adding some space above the start button */
+  background-color: white; /* White background for the button */
+  color: #46d5f8; /* Green text to match the header background */
+  padding: 10px 20px; /* Padding around the text */
+  border: none; /* Remove any default borders */
+  border-radius: 5px; /* Rounded corners for the button */
+  cursor: pointer; /* Change cursor to hand when hovering */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+.start-btn:hover {
+  background-color: #f4f4f4; /* Change background color when hovering */
+}
+
+.timer {
+  position: absolute; /* Absolute positioning relative to the body */
+  top: 10px; /* 10 pixels from the top */
+  right: 10px; /* 10 pixels from the right */
+}
+
+.view.highscore {
+  /* Note: I've added a dot between view and highscore as your class names are separate */
+  position: absolute; /* Absolute positioning relative to the body */
+  top: 10px; /* 10 pixels from the top */
+  left: 10px; /* 10 pixels from the left */
+  color: purple;
+}
+
+.quiz {
+  width: 80%; /* Taking up 80% of the viewport width */
+  max-width: 800px; /* Maximum width of 800 pixels */
+  margin: 0 auto; /* Centering it horizontally */
+}
+
+.questions {
+  margin-top: 20px; /* Providing space from the top */
+}
+.question-choice {
+  text-align: center; /* Center the text inside the div */
+  margin: 30px auto; /* Add 30px of margin to the top and bottom, and auto on the sides to center the div */
+  padding: 10px 20px; /* Add some padding inside the div for better aesthetics */
+
+  font-size: 24px; /* Set the font size */
+  font-weight: bold; /* Make the text bold */
+  color: #333; /* Set text color */
+  padding: 20px; /* Add padding around the text */
+  background-color: #f4f4f4; /* Set a background color */
+  border-radius: 10px; /* Add rounded corners */
+  margin-bottom: 20px; /* Add space below the question */
+  text-align: center; /* Center the text */
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.choices li {
+  list-style-type: none; /* Removing default list bullets */
+  margin-bottom: 10px; /* Spacing between list items */
+  border: 1px solid #ddd; /* Providing a border */
+  padding: 10px; /* Spacing inside the list item */
+  cursor: pointer; /* Showing a pointer when hovering over a choice */
+  transition: background-color 0.2s; /* Smooth transition for hover effect */
+  width: 260px;
+  height: 10px;
+  background-color: rgb(247, 79, 112);
+  border-radius: 10px;
+}
+
+.question-choice,
+.choices,
+.right-wrong-answer {
+  display: none;
+}
+
+.choices li:hover {
+  background-color: #eee; /* Background color change on hover */
+}
+
+span {
+  border-top: 2px rgb(197, 197, 197) solid;
+  padding-top: 20px;
+  padding-left: 20px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+/* End form */
+
+.end-form,
+.scoreboard {
+  padding: 20px;
+  border: 1px solid #ddd;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  line-height: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.end-form p,
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.end-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+}
+
+.end-form button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.end-form button:hover {
+  background-color: #0056b3;
+}
+
+.scoreboard button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  display: block;
+  margin: 20px auto;
+  cursor: pointer;
+}
+
+.highscore h2 {
+  cursor: pointer;
+}
