@@ -8,34 +8,40 @@
  <title>JS-Quiz-Time</title>
  <meta name="description" content="">
  <meta name="viewport" content="width=device-width, initial-scale=1">
+ <!-- Icon -->
  <link rel="icon" type="image/png" sizes="16x16" href="assests/favicon/favicon-16x16.png">
+ <!-- CSS -->
  <link rel="stylesheet" href="assests/style.css">
 </head>
 
 <body>
+ <!-- Main page with greating message and start button -->
  <header>
   <h1>Coding Quiz Challenge</h1>
   <p>Try to answer the following code-related questions with time limit. <br> Keep in mind the wrong answers will
    penalize your scoretime by 10seconds </p>
   <button class="start-btn">start quiz</button>
  </header>
+
+ <!-- Score checker -->
  <div class="view highscore">
   <h2>View HighScores</h2>
  </div>
+ <!-- Timer -->
  <div class="timer">Timer: 0</div>
+
+ <!-- Quiz with questions and choices -->
  <main class="quiz">
   <section class="questions">
    <div class="question-choice"></div>
-   <ul class="choices">
-
-   </ul>
-
+   <ul class="choices"></ul>
   </section>
+  <!-- Correct or Wrong answer -->
   <section>
    <span class="right-wrong-answer"></span>
   </section>
  </main>
-
+ <!-- JS  -->
  <script src="assests/app.js"></script>
 </body>
 

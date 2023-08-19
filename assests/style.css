@@ -19,34 +19,33 @@ body {
 
 header {
   text-align: center;
-  /* margin-bottom: 30px; Adding some space below the header */
-  background-color: #46d5f8; /* A green background color */
-  color: white; /* White text color */ /* Centered content */
-  padding: 40px 0; /* Padding on top and bottom */
-  border-radius: 10px; /* Rounded corners */
+  background-color: #46d5f8;
+  color: white;
+  padding: 40px 0;
+  border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* A subtle shadow */
-  margin: 20px 10%; /* Add some margin around the header and constrain its width */
+  margin: 20px 10%;
   padding-left: 5px;
   padding-right: 5px;
 }
 
 header h1 {
-  font-size: 2.5em; /* Bigger font size for title */
-  margin-bottom: 20px; /* Space below the title */
+  font-size: 2.5em;
+  margin-bottom: 20px;
 }
 
 header p {
-  font-size: 1.2em; /* Increase font size for the description */
-  margin-bottom: 30px; /* Space below the description */
+  font-size: 1.2em;
+  margin-bottom: 30px;
 }
 
 .start-btn {
-  margin-top: 15px; /* Adding some space above the start button */
-  background-color: white; /* White background for the button */
+  margin-top: 15px;
+  background-color: white;
   color: #46d5f8; /* Green text to match the header background */
-  padding: 10px 20px; /* Padding around the text */
+  padding: 10px 20px;
   border: none; /* Remove any default borders */
-  border-radius: 5px; /* Rounded corners for the button */
+  border-radius: 5px;
   cursor: pointer; /* Change cursor to hand when hovering */
   transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
@@ -56,48 +55,47 @@ header p {
 
 .timer {
   position: absolute; /* Absolute positioning relative to the body */
-  top: 10px; /* 10 pixels from the top */
-  right: 10px; /* 10 pixels from the right */
+  top: 10px;
+  right: 10px;
 }
 
 .view.highscore {
-  /* Note: I've added a dot between view and highscore as your class names are separate */
   position: absolute; /* Absolute positioning relative to the body */
-  top: 10px; /* 10 pixels from the top */
-  left: 10px; /* 10 pixels from the left */
+  top: 10px;
+  left: 10px;
   color: purple;
 }
 
 .quiz {
-  width: 80%; /* Taking up 80% of the viewport width */
-  max-width: 800px; /* Maximum width of 800 pixels */
-  margin: 0 auto; /* Centering it horizontally */
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .questions {
-  margin-top: 20px; /* Providing space from the top */
+  margin-top: 20px;
 }
 .question-choice {
-  text-align: center; /* Center the text inside the div */
-  margin: 30px auto; /* Add 30px of margin to the top and bottom, and auto on the sides to center the div */
-  padding: 10px 20px; /* Add some padding inside the div for better aesthetics */
+  text-align: center;
+  margin: 30px auto;
+  padding: 10px 20px;
 
-  font-size: 24px; /* Set the font size */
-  font-weight: bold; /* Make the text bold */
-  color: #333; /* Set text color */
-  padding: 20px; /* Add padding around the text */
-  background-color: #f4f4f4; /* Set a background color */
-  border-radius: 10px; /* Add rounded corners */
-  margin-bottom: 20px; /* Add space below the question */
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+  margin-bottom: 20px;
   text-align: center; /* Center the text */
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
 }
 
 .choices li {
-  list-style-type: none; /* Removing default list bullets */
-  margin-bottom: 10px; /* Spacing between list items */
-  border: 1px solid #ddd; /* Providing a border */
-  padding: 10px; /* Spacing inside the list item */
+  list-style-type: none;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
   cursor: pointer; /* Showing a pointer when hovering over a choice */
   transition: background-color 0.2s; /* Smooth transition for hover effect */
   width: 260px;
@@ -106,16 +104,18 @@ header p {
   border-radius: 10px;
 }
 
+/* Display None */
 .question-choice,
 .choices,
 .right-wrong-answer {
   display: none;
 }
-
+/* Hover effect */
 .choices li:hover {
-  background-color: #eee; /* Background color change on hover */
+  background-color: #eee;
 }
 
+/* Right or wrong answer style */
 span {
   border-top: 2px rgb(197, 197, 197) solid;
   padding-top: 20px;
@@ -186,5 +186,5 @@ h2 {
 }
 
 .highscore h2 {
-  cursor: pointer;
+  cursor: pointer; /*cursor pionter*/
 }
