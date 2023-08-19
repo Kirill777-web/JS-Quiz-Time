@@ -42,17 +42,12 @@ N/A
 - This is the link of my [GitHub repository](https://github.com/Kirill777-web/JS-Quiz-Time)
 
 The following screenshots show the application final output:
+![JS-Quiz-Time app](/assests/JS-Quiz-Time.png)
 
 ## Credits
 
 - This is link of UNB course section JavaScript [UNB](https://courses.bootcampspot.com/courses/3974)
 - This is link of MDN documentation [MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
-
-## Mock-Up
-
-The following animation demonstrates the application functionality:
-
-![JS-Quiz-Time app](/assests/JS-Quiz-Time.png)
 
 ## License
 
